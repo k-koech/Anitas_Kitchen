@@ -259,3 +259,70 @@ body
     list-style-type: none;
     background-color: rgb(180, 175, 175);
 }
+.menu .menu-class .menu-items div:first-child
+{
+    color: #F15A29;
+}
+.menu .menu-class .menu-items div
+{
+    background-color: cyan;
+    width:25%;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(186, 186, 186);
+    font-weight: 700;
+}
+.menu .menu-class .menu-items div:first-child
+{
+    border: none;
+    background-color: #fff;
+}
+.menu .menu-class .images
+{
+    margin: 30px 20px -5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.menu .menu-class .images .cols img
+{
+    padding: 2px;
+}
+.menu .menu-class .images .fa
+{
+    font-weight: 400;
+}
+.menu .menu-class .images .span1
+{
+    display: flex;
+    align-items: center;
+    margin-right: 0.5em;
+    font-size: 3em;
+    color: #F15A29;
+}
+.menu .menu-class .images .span2
+{
+    display: flex;
+    align-items: center;
+    font-size: 3em;
+    color: #F15A29;
+}
+.menu .menu-class .images h1
+{
+    font-size: 40px;
+    font-weight: 1000;
+}
+.menu .menu-class .images h3
+{
+    color: #F15A29;
+    margin-top:0.4em;
+}
+.menu .menu-class .cols
+{
+    width: 30%;
+}
+
+
