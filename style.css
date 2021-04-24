@@ -1,0 +1,57 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header .header-img
+{
+    position: relative;
+    background-image: url("assets/backgrounds/landing.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    height: 93vh;
+}
+.header .header-img button
+{
+    position: absolute;
+    top: 1.7em;
+    left: 1.7em;
+    border: none;
+    font-size: 40px;
+    padding: auto 0px;
+    background-color:transparent;
+    color: white;
+}
+.header .header-img button:hover
+{
+    color: rgb(9, 9, 9);
+    cursor: pointer;
+}
+.header .header-img button .fa
+{
+    transform: scale(1.5,0.8);
+    line-height: 5px;
+}
+
+
+.header .header-title
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.header .header-title .title-name span
+{
+    font-weight:100;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+}
+
+
+
+
