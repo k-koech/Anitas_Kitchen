@@ -396,3 +396,21 @@ body
     font-size: 2em;
     color: #F15A29;
 }
+
+.review .row .col-1 .customers .span1
+{
+    margin-right: 0.8em;
+    font-weight: 1000;
+}
+
+.review .row .col-1 .customers .span2
+{
+    margin-left: 0.8em;
+}
+.review .row .col-2
+{
+    text-align: center;
+    padding: 0.5em;
+    width: 35%;
+}
+
