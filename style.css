@@ -326,3 +326,73 @@ body
 }
 
 
+/* REVIEWS */
+.review
+{
+    box-shadow: 0px 0px 10px grey;
+    background-color: white;
+    height: 28em;
+    position: relative;
+}
+.review .row
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+    width: 80%;
+    height: 15em;
+    box-shadow: 0 0 5px rgb(179, 179, 179);
+    display: flex;
+    padding: 0.8em;
+}
+.review .row h2
+{
+    color: #F15A29;
+}
+
+.review .row p
+{
+    line-height: 1.5;
+}
+.review .row .col-1
+{
+    text-align: center;
+    padding: 0.5em;
+    width: 65%;
+    border-right: 2px solid rgb(170, 170, 170);
+}
+.review .row .col-1 .customers
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review .row .col-1 .customers .profiles
+{
+    display: flex;
+    align-items: center;
+}
+.review .row .col-1 .customers .profiles div
+{
+    padding: 0;
+    margin-left: 0.7em;
+    margin-right: 0.7em;
+    display: flex;
+    justify-content: center;
+}
+.review .row .col-1 .customers .profiles div img
+{
+   padding: 0;
+   margin:0;
+}
+.review .row .col-1 .customers .fa
+{
+    font-weight: bold;
+}
+
+.review .row .col-1 .customers .span1, .span2
+{   
+    font-size: 2em;
+    color: #F15A29;
+}
