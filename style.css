@@ -231,7 +231,7 @@ body
     color:#F15A29;
     background-color: white;
 }
-/* from here */
+
 /* MENU SECTION */
 .menu
 {
@@ -462,4 +462,51 @@ footer button
     border: none;
     width: 30%;
     background-color:#F15A29;
+}
+
+footer .row2
+{
+    background-color: #F15A29;
+    position: relative;
+}
+footer .row2 .footer-title
+{
+    margin-top: 0.7em;
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .row2 p
+{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
+
+.social
+{
+    display: flex;
+    justify-content: center;
+}
+.social .fb, .pinterest, .twitter
+{
+    display: grid;
+    margin: 0em 0.7em 0em;
+    position: relative;
+}
+
+.social .fb .fa, .pinterest .fa, .twitter .fa
+{
+    position: absolute;
+    color: #F15A29;
+    top: 35%; left: 35%; 
+    transform: translateY(-35%, -35%);  
+}
+.social .fa:hover
+{
+    color: brown;
+    cursor: pointer;
 }
