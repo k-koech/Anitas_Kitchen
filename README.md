@@ -16,5 +16,5 @@ HTML and CSS
 ## Support and contact details
 koechkelvin97@gmail.com :Whatsap - +254725801772 
 ### License
-*LIcenced under the MT licence. LICENCE.md*
-Copyright (c) {year} **Kelvin KIpchumba Koech**
+*LIcenced under the MT licence. File - LICENCE.md*
+Copyright (c) 2021 **Kelvin KIpchumba Koech**
