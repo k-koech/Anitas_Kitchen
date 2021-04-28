@@ -137,6 +137,7 @@ body
     height: 25em;
     margin: 6% auto 0%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content:center;
 }
@@ -178,6 +179,7 @@ body
     width: 89%;
     margin: 5% auto 6%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content:center;
 }
@@ -200,13 +202,13 @@ body
 {
    padding-right:40px; 
 }
-.description .second-row .col-2 .row 
+.description .second-row .col-2 .col 
 {
     padding: 0px;
     margin: 0px;
     background-color: khaki;
 }
-.description .second-row .col-2 .row img
+.description .second-row .col-2 .col img
 {
     width: 100%;
     height: 100%;
@@ -250,15 +252,14 @@ body
 /* MENU SECTION */
 .menu
 {
-    position: relative;
+    display: flex;
     background-image: url("assets/backgrounds/foodsBg.jpg");
-    height: 35em;
+    height: auto !important;
+    padding: 7%;
 }
 .menu .menu-class
 {
-    position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
-    width: 75%;
+    width: 87%;
     height: 23em;
     margin: auto;
     background-color: rgb(255, 255, 255);
@@ -375,13 +376,13 @@ body
 {
     box-shadow: 0px 0px 10px grey;
     background-color: white;
-    height: 28em;
-    position: relative;
+    min-height: 28em;
+    display: flex;
+    align-items: center;
 }
 .review .row
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: absolute;
     margin: auto;
     top: 0; left: 0; bottom: 0; right: 0;
     width: 80%;
@@ -554,4 +555,201 @@ footer .row2 p
 {
     color: brown;
     cursor: pointer;
+}
+
+/* ***************************** */
+@media screen and (max-width: 800px) 
+{
+    /* header section */
+.header .header-title
+{
+    width: 40%;
+}
+.header .header-title .title-name span
+{
+      font-size: 1.5em;
+}
+.header .header-title img 
+{
+    width: 100%;
+}
+
+.header .captions
+{ 
+    font-size: 1.2em;
+    height: 5em;
+}
+.header .captions .cols
+{
+    width: 25%;
+    position: relative;
+}
+    
+/* DESCRIPTION section */
+.description .first-row
+{
+    width: 100%;
+    height:auto !important;
+}
+.description .first-row .col-1
+{
+    width: 80%;   
+}
+
+
+.description .first-row .col-2
+{
+    width: 80%;
+    padding: 30px;
+}
+
+
+.description .second-row
+{
+    width: 100%;
+}
+
+.description .second-row .col-1
+{ 
+    text-align: right;
+    padding: 20px;
+    width: 80%;
+}
+    .description .second-row .col-1 div
+{
+    padding-right:40px; 
+}
+.description .second-row .col-2
+{
+    width: 80%;
+}
+
+.description .second-row .col-2 .col 
+{
+    width: 50%;
+}
+.description h1
+{
+    font-size: 30px;
+    margin-block-end: 0.14em;
+}
+.description h4
+{
+    font-size: 18px;
+}
+.description p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+}
+.description button
+{
+    margin:10px 0px 10px;
+    border: 1px solid #F15A29;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+
+/* MENU SECTION */
+
+.menu .menu-class
+{
+    width: 100%;
+    height: auto !important;
+}
+
+.menu .menu-class .menu-items div
+{
+    font-size: 15px;
+    background-color: rgb(226, 226, 226);
+    padding: 10px;
+}
+
+.menu .menu-class .images
+{
+    margin: 30px 0px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu .menu-class .captions
+{
+    font-size: 15px;
+}
+.menu .menu-class .captions h3
+{
+   font-size: 12px;
+    margin-top: 0.7em;
+}
+
+.menu .menu-class .cols
+{
+    width: 28%;
+}
+
+ /* REVIEWS */
+    
+.review
+{
+    height:auto !important; 
+    }
+.review .row
+{  
+    margin: 2em auto 2em;     
+    width: 80%;
+    height: auto !important;
+    flex-direction: column;
+    align-items: center;
+}
+    
+.review .row .col-1
+{
+    width: 100%;
+    height: auto;
+}
+
+.review .row .col-2
+{
+    border-left: 0px solid rgb(221, 221, 221);
+    border-top: 3px solid rgb(221, 221, 221);
+    width: 100%;
+    height: auto ;
+}
+
+/* FOOTER */
+footer
+{
+    height: 37em;
+}
+footer .centerDiv
+{
+    width: 90%;
+}
+footer .centerDiv h2
+{
+    font-size: 15px;
+}
+footer input[type=email] 
+{
+    padding: 0.6em;
+    width: 60%;
+    font-size: 15px;
+    color: rgb(206, 15, 15);
+}
+
+footer button
+{
+    font-size: 15px;
+    width: 30%;
+}
+
+
+footer .row2 .footer-title
+{
+    font-size: 2em;
+}
+
 }
