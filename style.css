@@ -16,8 +16,8 @@ body
 .header .header-img button
 {
     position: absolute;
-    top: 1.7em;
-    left: 1.7em;
+    top:8%;
+    left:6%;
     border: none;
     font-size: 40px;
     padding: auto 0px;
@@ -26,7 +26,7 @@ body
 }
 .header .header-img button:hover
 {
-    color: rgb(9, 9, 9);
+    color: rgb(114, 75, 75);
     cursor: pointer;
 }
 .header .header-img button .fa
@@ -472,7 +472,6 @@ footer
     font-family: Arial, Helvetica, sans-serif;
     height: 37em;
     color: #fff;
-    background-color: rgb(0, 72, 255);
 }
 footer .row1
 {
@@ -515,6 +514,7 @@ footer .row2
     background-color: #F15A29;
     position: relative;
 }
+
 footer .row2 .footer-title
 {
     margin-top: 0.7em;
@@ -557,13 +557,21 @@ footer .row2 p
     cursor: pointer;
 }
 
-/* ***************************** */
+/* **************RESPONSIVENESS*************** */
 @media screen and (max-width: 800px) 
 {
-    /* header section */
+  /* header section */
 .header .header-title
 {
-    width: 40%;
+    width: 50%;
+}
+.header .header-img button
+{
+    position: absolute;
+    top:6%;
+    left:7%;
+    border: none;
+    font-size: 40px;
 }
 .header .header-title .title-name span
 {
@@ -630,12 +638,12 @@ footer .row2 p
 }
 .description h1
 {
-    font-size: 30px;
+    font-size: 1.5em;
     margin-block-end: 0.14em;
 }
 .description h4
 {
-    font-size: 18px;
+    font-size: 1em;
 }
 .description p
 {
@@ -704,7 +712,10 @@ footer .row2 p
     flex-direction: column;
     align-items: center;
 }
-    
+.review .row h2
+{
+   font-size: 1.3em;
+}
 .review .row .col-1
 {
     width: 100%;
@@ -722,7 +733,7 @@ footer .row2 p
 /* FOOTER */
 footer
 {
-    height: 37em;
+    height: 30em;
 }
 footer .centerDiv
 {
@@ -730,7 +741,16 @@ footer .centerDiv
 }
 footer .centerDiv h2
 {
-    font-size: 15px;
+    font-size: 1.3em;
+}
+
+footer .row2 .footer-title
+{
+    height:1.5em;
+}
+footer .row2 .footer-title img
+{
+    height: 100%;
 }
 footer input[type=email] 
 {
@@ -749,7 +769,34 @@ footer button
 
 footer .row2 .footer-title
 {
-    font-size: 2em;
+    font-size: 1.5em;
+}
+footer .row2 h3
+{
+    font-size: 1em;
+}
+
+}
+
+
+@media screen and (max-width: 550px) 
+{
+  /* header section */
+
+.header .header-title .title-name span
+{
+      font-size: 1.1em;
+}
+.header .captions
+{ 
+    font-size: 1em;
+    height: 3em;
+}
+
+/* footer */
+footer .centerDiv h2
+{
+    font-size: 1em;
 }
 
 }
