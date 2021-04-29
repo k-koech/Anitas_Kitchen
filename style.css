@@ -168,14 +168,13 @@ body
 }
 .description .first-row .col-2
 {
-    padding: 20px;
+   padding: 20px;
     width: 40%;
 }
 
 
 .description .second-row
 {
-
     width: 89%;
     margin: 5% auto 6%;
     display: flex;
@@ -296,7 +295,6 @@ body
     border: none;
     background-color: #fff;
 }
-
 .menu .menu-class .images
 {
     margin: 30px 0px 0px;
@@ -599,6 +597,7 @@ footer .row2 p
     width: 100%;
     height:auto !important;
 }
+
 .description .first-row .col-1
 {
     width: 80%;   
@@ -625,7 +624,7 @@ footer .row2 p
 }
     .description .second-row .col-1 div
 {
-    padding-right:40px; 
+    padding-right:0px; 
 }
 .description .second-row .col-2
 {
@@ -789,10 +788,15 @@ footer .row2 h3
 }
 .header .captions
 { 
-    font-size: 1em;
+    font-size: 0.8em;
     height: 3em;
 }
 
+.menu .menu-class .menu-items div
+{
+    font-size: 12px;
+    padding: 7px;
+}
 /* footer */
 footer .centerDiv h2
 {
