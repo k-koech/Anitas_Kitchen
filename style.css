@@ -569,8 +569,18 @@ footer .row2 p
     top:6%;
     left:7%;
     border: none;
-    font-size: 40px;
+    font-size: 35px;
 }
+
+
+.header .header-img button .fa
+{
+    transform: scale(1,0.8);
+    line-height: 5px;
+}
+
+
+
 .header .header-title .title-name span
 {
       font-size: 1.5em;
@@ -622,9 +632,13 @@ footer .row2 p
     padding: 20px;
     width: 80%;
 }
-    .description .second-row .col-1 div
+.description .second-row .col-1 div
 {
     padding-right:0px; 
+}
+.description .first-row .col-2 div
+{
+   padding-left:0px; 
 }
 .description .second-row .col-2
 {
